@@ -76,3 +76,23 @@ app.listen(3000, function(){ //port num is any 4 or 5 digits that is used to con
 
 //NOTE
 //Our server understands/uses JS data, the client understands/uses json data
+
+
+
+
+//HTTP METHODS 
+//HTTP = HyperText Transfer Protocol
+//HTTP methods tells the server what type of action to perform on a resource. 
+//The methods are categorized into four patterns; CRUD
+//CRUD => Create, Read, Update, Delete
+
+//The four main methods
+//1. GET: To read/retrieve a resource.
+//2. POST: create a new resource. 
+//3. PUT: Update/replace an entire resource. 
+//4. DELETE: Remove a source from the server. 
+
+//Other Methods
+//PATCH: Partially update part of a resource. 
+//HEAD: Like GET but returns only headers, note the body. 
+//OPTIONS: Ask the server what methods are allowed for a given URL. 
